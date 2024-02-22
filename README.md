@@ -2,7 +2,7 @@
 
 |   Analysis Type  | Project    |
 | -------- | ------- |
-|     Exploratory Data Analysis  |   ![instacart](instacart-eda/instacart.ipynb)  |   
+|     Exploratory Data Analysis  |   [instacart](instacart-eda)  |   
 |          |         |       
 |          |         |         
 |          |         |         
