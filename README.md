@@ -1,10 +1,10 @@
 # triple-ten-projects
 
-|   Analysis Type  | Project    |
-| -------- | ------- |
-|     Exploratory Data Analysis  |   [instacart](instacart-eda)  |   
-|          |         |       
-|          |         |         
-|          |         |         
-|          |         |         
+|   Project Type  | Project    | Skills | 
+| -------- | ------- |------- |
+|     Exploratory Data Analysis  |   [instacart](instacart-eda)  |  | 
+|          |         |       | 
+|          |         |         | 
+|          |         |         | 
+|          |         |         | 
 
