@@ -23,7 +23,7 @@ Data was provided by instacart and found on kaggle, but is no longer available.
 
 # Findings
 
-![instacart-eda/pics/top20products.png](instacart-eda/pics/top20products.png)
+![instacart-eda/pics/top20products.png](pics/top20products.png)
 
 
 Top selling products include generic fruit and vegetable products as well as milk. Bananas and organic bananas reign supreme and account for over 110,000 orders. 
