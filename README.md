@@ -1,5 +1,10 @@
 # triple-ten-projects
 
-| Sprint    | Project | Link    |
-| -------- | ------- | -------- |
-|          |         |          |
+|   Analysis Type  | Project    |
+| -------- | ------- |
+|     Exploratory Data Analysis  |   ![instacart](instacart-eda/instacart.ipynb)  |   
+|          |         |       
+|          |         |         
+|          |         |         
+|          |         |         
+
