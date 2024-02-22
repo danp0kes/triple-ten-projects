@@ -14,12 +14,6 @@ Top selling products include generic fruit and vegetable products as well as mil
 
 Reorder rates show differences among top products. The highest include bananas 
 
-!['Top Performing Products by Reorder Percentage (more than 40 orders)'](pics/proportion_of_reorders.png)
-
-Foods with the highest reorder proportions are mostly drinks. These include probiotics, energy drinks, milk, soda water and purified water. 
-
-These products could be a good fit for future advertisement as they show that they have been liked by customers more than other products. Interestingly, these items show a longer shelf life than current top sellers.
-
 !['Wed vs Sat'](pics/wednesday_vs_saturday.png)
 
 Differences between customer usage on weekdays and weekends are minimal. This is shown by the relationship between usage on Wednesday's and Saturday's. 
@@ -27,6 +21,12 @@ Differences between customer usage on weekdays and weekends are minimal. This is
 They  follow similar shopping patterns. Slight differences occurs at 7:00 am where Wednesday has more orders. Shopping picks up quickly, seeing increases of around 1000 orders per hour until 10:00 am. At around 12:00pm, Saturday shopping increases more than Wednesday's. 
 
 Both peak over 5000 orders at around 2:00pm and 3:00pm. After this point, shopping sees a more gradual decrease than it's morning increase.
+
+!['Top Performing Products by Reorder Percentage (more than 40 orders)'](pics/proportion_of_reorders.png)
+
+Foods with the highest reorder proportions are mostly drinks. These include probiotics, energy drinks, milk, soda water and purified water. 
+
+These products could be a good fit for future advertisement as they show that they have been liked by customers more than other products. Interestingly, these items show a longer shelf life than current top sellers.
 
 !['Number of Orders per Customer'](pics/total_orders_reorders.png)
 
