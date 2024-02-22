@@ -28,7 +28,9 @@ Foods with the highest reorder proportions are mostly drinks. These include prob
 
 These products could be a good fit for future advertisement as they show that they have been liked by customers more than other products. Interestingly, these items show a longer shelf life than current top sellers.
 
-!['Number of Orders per Customer'](pics/total_orders_reorders.png)
+!['Number of Orders per Customer'](pics/orders_per_customer.png)
+
+
 
 The distribution is right skewed with the highest frequency of customers (28000) having only one order. 
 
