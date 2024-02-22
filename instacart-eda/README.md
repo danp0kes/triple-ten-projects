@@ -1,6 +1,4 @@
-# Project
-
-The full prject can be found [here](instacart.ipynb)
+The full project can be found [here](instacart.ipynb)
 
 # Introduction
 
