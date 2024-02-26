@@ -1,5 +1,10 @@
 # triple-ten-projects
 
-| Sprint    | Project | Link    |
-| -------- | ------- | -------- |
-|          |         |          |
+|   Project Type  | Project    | Skills | 
+| -------- | ------- |------- |
+|     Exploratory Data Analysis  |   [instacart](instacart-eda)  |  | 
+|          |         |       | 
+|          |         |         | 
+|          |         |         | 
+|          |         |         | 
+
