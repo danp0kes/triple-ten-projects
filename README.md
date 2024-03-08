@@ -2,7 +2,7 @@
 
 |   Project Type  | Project    | Skills | 
 | -------- | ------- |------- |
-|     Exploratory Data Analysis  |   [instacart](instacart-eda)  |  | 
+|     Exploratory Data Analysis  |   [instacart](projects/instacart-eda)  |  | 
 |          |         |       | 
 |          |         |         | 
 |          |         |         | 
