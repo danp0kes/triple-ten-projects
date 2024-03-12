@@ -1,6 +1,6 @@
 # Instacart (Exploratory Data Analysis)
 
-# Purpose
+## Purpose
 
 Instacart, a grocery delivery company, requests insight into the shopping habits of their customers. 
 
@@ -15,7 +15,7 @@ They wish to know:
   - re-ordered?
   - the first items customers buy?
  
-# Data Description
+## Data Description
 
 Five tables have been provided by instacart (and sourced by TripleTen). Each will be preprocessed for data exploration. Below is a data dictionary that lists the columns in each table along with a description.
 
@@ -48,7 +48,7 @@ Five tables have been provided by instacart (and sourced by TripleTen). Each wil
 - `'department_id'`: ID number that uniquely identifies each grocery department category
 - `'department'`: name of the department
 
-# Process
+## Process
 
 Data was first pre-processed. This included handling:
 - duplicate values
@@ -62,7 +62,7 @@ Once data was cleaned, an analysis occurred that required:
 
 Visualisation of these results was shown to display key findings.
 
-# Key Findings
+## Key Findings
 
 !['Top 20 most ordered products with reorder data'](pics/total_orders_reorders.png)
 
