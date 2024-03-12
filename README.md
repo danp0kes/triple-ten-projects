@@ -1,6 +1,6 @@
 # triple-ten-projects
 
-Portfolio of completed projects I worked on while attending the Data ScienCE Bootcamp with TripleTen.
+Portfolio of completed projects I worked on while attending the Data Science Bootcamp with TripleTen.
 
 |  Number | Subject | Description | Link | 
 | -------- | ------- |------- | ------- |
@@ -20,5 +20,4 @@ Portfolio of completed projects I worked on while attending the Data ScienCE Boo
 | 14 | Computer Vision             |       |       | 
 | 15 | Unsupervised Learning       |    TBC   |   TBC    | 
 | 16 | Final Project               |    TBC   |   TBC   | 
-| 17 |       |       |       | 
 
