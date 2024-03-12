@@ -1,8 +1,66 @@
-The full project can be found [here](instacart.ipynb)
+# Instacart (Exploratory Data Analysis)
 
-# Introduction
+# Purpose
 
-Instacart, a grocery delivery company, requests insight into the shopping habits of their customers. Data is provided which they hope will uncover important answers about customers product preferences and usage habits.
+Instacart, a grocery delivery company, requests insight into the shopping habits of their customers. 
+
+They wish to know:
+- Which hours and days are most orders being processed?
+- How frequently do customers place orders?
+- Are customer habits different between weekends and weekdays?
+- How many customers re-order and how often?
+- What proportion of items are a re-order?
+- What are the top products that are:
+  - purchased?
+  - re-ordered?
+  - the first items customers buy?
+ 
+# Data Description
+
+Five tables have been provided by instacart (and sourced by TripleTen). Each will be preprocessed for data exploration. Below is a data dictionary that lists the columns in each table along with a description.
+
+`instacart_orders.csv`: each row corresponds to one order on the Instacart app
+
+- `'order_id'`: ID number that uniquely identifies each order
+- `'user_id'`: ID number that uniquely identifies each customer account
+- `'order_number'`: the number of times this customer has placed an order
+- `'order_dow'`: day of the week that the order placed (which day is 0 is uncertain)
+- `'order_hour_of_day'`: hour of the day that the order was placed
+- `'days_since_prior_order'`: number of days since this customer placed their previous order
+     
+`products.csv`: each row corresponds to a unique product that customers can buy
+- `'product_id'`: ID number that uniquely identifies each product
+- `'product_name'`: name of the product
+- `'aisle_id'`: ID number that uniquely identifies each grocery aisle category
+- `'department_id'`: ID number that uniquely identifies each grocery department category
+
+`order_products.csv`: each row corresponds to one item placed in an order
+- `'order_id'`: ID number that uniquely identifies each order
+- `'product_id'`: ID number that uniquely identifies each product
+- `'add_to_cart_order'`: the sequential order in which each item was placed in the cart
+- `'reordered'`: 0 if the customer has never ordered this product before, 1 if they have
+
+`aisles.csv`
+- `'aisle_id'`: ID number that uniquely identifies each grocery aisle category
+- `'aisle'`: name of the aisle
+    
+`departments.csv`
+- `'department_id'`: ID number that uniquely identifies each grocery department category
+- `'department'`: name of the department
+
+# Process
+
+Data was first pre-processed. This included handling:
+- duplicate values
+- missing values
+- odd values
+
+Once data was cleaned, an analysis occurred that required:
+- merging dataframes
+- slicing dataframes
+- grouping values
+
+Visualisation of these results was shown to display key findings.
 
 # Key Findings
 
@@ -28,10 +86,10 @@ These products could be a good fit for future advertisement as they show that th
 
 !['Number of Orders per Customer'](pics/orders_per_customer.png)
 
-
-
 The distribution is right skewed with the highest frequency of customers (28000) having only one order. 
 
 This hovers before dropping rapidly at five orders. This suggests that many customers have only used instacart a handful of times. However, more than half of customers have made over 10 orders using instacart.
 
 Many have used it hundreds of times, suggesting that there is potential for first time users. 
+
+The full project can be found [here](instacart.ipynb)
