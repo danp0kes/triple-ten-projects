@@ -1,8 +1,6 @@
 # Instacart (Exploratory Data Analysis)
 
-The full python notebook project can be found [here.](instacart.ipynb)
-
-A loom overview can be found here.
+The loom overview can be found here and the full python notebook project [here.](instacart.ipynb)
 
 ## Purpose
 
