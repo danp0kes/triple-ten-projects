@@ -1,6 +1,6 @@
 # triple-ten-projects
 
-Portfolio of completed projects I worked on while attending the Data Science Bootcamp with TripleTen.
+Portfolio of completed projects while attending the Data Science Bootcamp with TripleTen.
 
 |  Number | Subject | Description | Skills | Link | 
 | -------- | ------- |------- | ------- | ------- |
