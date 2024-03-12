@@ -1,5 +1,7 @@
 # Instacart (Exploratory Data Analysis)
 
+The full project can be found [here](instacart.ipynb)
+
 ## Purpose
 
 Instacart, a grocery delivery company, requests insight into the shopping habits of their customers. 
@@ -91,5 +93,3 @@ The distribution is right skewed with the highest frequency of customers (28000)
 This hovers before dropping rapidly at five orders. This suggests that many customers have only used instacart a handful of times. However, more than half of customers have made over 10 orders using instacart.
 
 Many have used it hundreds of times, suggesting that there is potential for first time users. 
-
-The full project can be found [here](instacart.ipynb)
