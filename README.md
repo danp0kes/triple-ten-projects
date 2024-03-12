@@ -4,7 +4,7 @@ Portfolio of completed projects I worked on while attending the Data Science Boo
 
 |  Number | Subject | Description | Skills | Link | 
 | -------- | ------- |------- | ------- | ------- |
-| 1 | Exploratory Data Analysis    | Instacart, a grocery delivery company, requests insight into the shopping habits of their customers concerning top products and delivery times.| Basic Python SKills - Data Cleaning, Merging, Groupby, Data Visualization | [instacart](projects/instacart-eda) |
+| 1 | Exploratory Data Analysis    | Instacart, a grocery delivery company, requests insight into the shopping habits of their customers concerning top products and delivery times.| Basic Python - Data Cleaning, Merging, Groupby, Data Visualization | [instacart](projects/instacart-eda) |
 | 2 | Statistical Data Analysis    |       |       | ------- |
 | 3 | Software Development Tools   |       |       | ------- |
 | 4 | Integrated Project 1         |       |       | ------- |
