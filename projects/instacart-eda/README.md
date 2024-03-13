@@ -17,6 +17,8 @@ They wish to know:
   - re-ordered?
   - the first items customers buy?
  
+## Data
+
 ## Data Description
 
 Five tables have been provided by instacart (and sourced by TripleTen). Each will be preprocessed for data exploration. Below is a data dictionary that lists the columns in each table along with a description.
@@ -50,6 +52,7 @@ Five tables have been provided by instacart (and sourced by TripleTen). Each wil
 - `'department_id'`: ID number that uniquely identifies each grocery department category
 - `'department'`: name of the department
 
+
 ## Process
 
 Data was first pre-processed. This included handling:
@@ -62,7 +65,7 @@ Once data was cleaned, an analysis occurred that required:
 - slicing dataframes
 - grouping values
 
-Visualisation of these results was shown to display key findings.
+Visualisations were then made to highlight key findings.
 
 ## Key Findings
 
