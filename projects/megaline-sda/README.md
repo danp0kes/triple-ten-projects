@@ -1,5 +1,4 @@
 # Megaline (Statistical Data Analysis)
-
 The loom overview can be found here and full python notebook project [here.](megaline-sda.ipynb)
 
 ## Purpose
@@ -22,5 +21,8 @@ To do this the following steps will take place:
 
 ## Key Findings
 
+### Monthly Revenue
+
+![monthly_revenue](pics/revenue_by_plan_month.png)
 
 
