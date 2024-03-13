@@ -26,23 +26,23 @@ Revenue is dependent on a customer's:
 - number of messages sent
 - internet usage
 
-These three levers in the surf plan must overcome the price difference in the ultimate plan to be more profitable. As most ultimate plan users do not go over their high caps, this difference is $50.
+These three levers in the surf plan must overcome the price difference in the ultimate plan to be more profitable. As most ultimate plan users do not go over their high caps, this difference is `$`50.
 
 ### Call Duration
 
-![calls_histogram]('pics/call_minutes_hist.png')
+![calls_histogram](pics/call_minutes_hist.png)
 
 This histogram shows how similar the number of calls are between phone plans. Whilst there are more surf users, the distribution follows the same shape. Comparing summary statistics confirms that plan type does not affect the number of calls customers make. 25% of surf users do go over their plan limits, but not significanlty enough to overcome the fixed price difference between the plans alone. Even the most extreme caller only accounts for `$`30, which is still under the `$`50 limit.
 
 ### Messages
 
-![messages_boxplot]('pics/messages_boxplot.png')
+![messages_boxplot](pics/messages_boxplot.png)
 
 Ultimate plan users are not paying extra for text messages whilst texting more. 25% of Surf plan users are paying, however, at 3 cents per message. This income is even smaller than what calling minutes are providing. For instance, even if all surf users were messaging as much as the highest messager, only 7 dollars would be added.
 
 ### Internet Usage
 
-![internet_hist]('pics/internet_usage_hist.png')
+![internet_hist](pics/internet_usage_hist.png)
 
 Whilst some ultimate users are paying for excess internet, almost half of surf users are. As the cost for an extra gigabyte is 7 dollars, this becomes a significant revenue source. 25 percent of surf users are paying atleast 50 dollars extra for internet alone. This in combination with call duration and message costs may be enough to make the surf plan more profitable so long as users continue to behave similarly. Likewise, if megaline wanted to increase profit, this would be the lever to use.
 
