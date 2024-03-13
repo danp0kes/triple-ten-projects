@@ -26,13 +26,13 @@ Revenue is dependent on a customer's:
 - number of messages sent
 - internet usage
 
-These three levers in the surf plan must overcome the price difference in the ultimate plan to be more profitable. As most ultimate plan users do not go over their high caps, this difference is `$`50.
+These three levers in the surf plan must overcome the price difference in the ultimate plan to be more profitable. As most ultimate plan users do not go over their high caps, this difference is 50 dollars.
 
 ### Call Duration
 
 ![calls_histogram](pics/call_minutes_hist.png)
 
-This histogram shows how similar the number of calls are between phone plans. Whilst there are more surf users, the distribution follows the same shape. Comparing summary statistics confirms that plan type does not affect the number of calls customers make. 25% of surf users do go over their plan limits, but not significanlty enough to overcome the fixed price difference between the plans alone. Even the most extreme caller only accounts for `$`30, which is still under the `$`50 limit.
+This histogram shows how similar the number of calls are between phone plans. Whilst there are more surf users, the distribution follows the same shape. Comparing summary statistics confirms that plan type does not affect the number of calls customers make. 25% of surf users do go over their plan limits, but not significanlty enough to overcome the fixed price difference between the plans alone. Even the most extreme caller only accounts for 30 dollars, which is still under the 50 dollar limit.
 
 ### Messages
 
