@@ -12,7 +12,7 @@ To determine which plan is better, a statistical analysis that uses a small samp
 To do this the following steps will take place:
 1. Prepare data
 2. Analyze revenue data 
-3. Test hypotheses for difference in revenue and location based revenue
+3. Validate hypotheses 
  
 ## Data
 
