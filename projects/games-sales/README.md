@@ -1,4 +1,4 @@
-# Megaline (Statistical Data Analysis)
+# Ice Games Sales (Integrated Project)
 The loom overview can be found here and full python notebook project [here.](games.ipynb)
 
 ## Purpose
