@@ -2,7 +2,7 @@
 The loom overview can be found here and full python notebook project [here.](games.ipynb)
 
 ## Purpose
-Ice, an online store wishes to plan advertising campaigns in the best way possible. Historical game data has been provided to analyze the industry and identify patterns that will determine if a game will succeed or not. User and expert reviews, genres, platforms and game sale data has all been provided. 
+Ice, an online gaming store wishes to plan advertising campaigns in the best way possible. Historical game data has been provided to analyze the industry and identify patterns that will determine if a game will succeed or not. User and expert reviews, genres, platforms and game sale data has all been provided. 
  
 ## Data
 
