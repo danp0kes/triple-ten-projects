@@ -14,7 +14,7 @@ Data has been provided by TripleTen and can be found [here](data/games.csv)
 - Platforms typically show a 9-11 year life cycle
 - Top current platforms are nearing the end of their lifecycle
 
-![critic-user](pic/critic-user.png)
+![critic-user](pics/critic-user.png)
 
 - User scores are not correlated with game sales (-0.013)
 - Critic scores show a weak positive correlation with game sales (0.405)
