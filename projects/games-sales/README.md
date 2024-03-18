@@ -43,11 +43,11 @@ Data has been provided by TripleTen and can be found [here](data/games.csv)
 
 
 ### 6.3 Hypotheses Tests
-**XBox One and PC Ratings**
+#### XBox One and PC Ratings
 
 The hypothesis that average user ratings of the Xbox One and PC platforms are similar is supported. This indicates that platform may not play a big factor into the game that is advertised.
 
-**Action and Sports Ratings**
+#### Action and Sports Ratings
 
 The hypothesis that the average user ratings for action and sports genres are the same is unsupported. 
 
