@@ -6,7 +6,7 @@ Visualise UFO sighting data on a [website](https://ufo-sightings-n0w1.onrender.c
 
 ## Process
 
-The data was loaded, cleaned and analysed. This process can be found in this [notebook](notebooks/EDA.ipynb).
+Data was loaded, cleaned and analysed. This process can be found in this [notebook](notebooks/EDA.ipynb).
 
 Streamlit was used to visualize data with Render that initiliazed the packages required for online viewing.
 
@@ -25,4 +25,8 @@ Report day lag seems to relay that the higher the lag, the longer the duration. 
 
 ## Website 
 
+![frequency-analysis](pics/freq-analysis.png)
 
+![report-day-lag](pics/report-day-lag.png)
+
+![map](pics/map.png)
