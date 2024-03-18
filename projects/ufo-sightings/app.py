@@ -85,7 +85,7 @@ fig.update_layout(
     font=dict(
         family="Courier New, monospace",
         size=12,
-        color="RebeccaPurple"
+        color="white"
     )
 )
 
@@ -153,7 +153,7 @@ fig2.update_layout(
     font=dict(
         family="Courier New, monospace",
         size=14,
-        color="black")
+        color="white")
     
 )
 
