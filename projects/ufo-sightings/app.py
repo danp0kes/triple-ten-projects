@@ -15,7 +15,7 @@ st.header('UFO Sightings')
 
 # Create header scatterplot
 st.write("""
-##### Introduction
+#####
 The data contains information about UFO encounters from 1906 to 2014. Details about the shape of the UFO, the duration of the encounter as well as the co-ordinates of its location have all been recorded. Our analysis will look at these elements on a histogram, scatterplot and an interactive map.
 """)
 
