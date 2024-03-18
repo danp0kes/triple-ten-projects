@@ -16,7 +16,9 @@ st.header('UFO Sightings')
 # Create header scatterplot
 st.write("""
 #####
-The data contains information about UFO encounters from 1906 to 2014. Details about the shape of the UFO, the duration of the encounter as well as the co-ordinates of its location have all been recorded. Our analysis will look at these elements on a histogram, scatterplot and an interactive map.
+Whether you believe in extraterrestrials or not, UFO sightings are becoming harder to deny. With over 80,000 reported encounters since 1906, reports offered by the National UFO Reporting Center Online Database (NURCOB) offer key insights into the world of the unexplainable.
+
+The data contains information about UFO encounters from 1906 to 2014. Details about the shape of the UFO, the duration of the encounter as well as the co-ordinates of its location have all been recorded. Our analysis will look at these elements on a histogram, scatterplot and interactive map.
 """)
 
 # Display the dataframe with streamlit
