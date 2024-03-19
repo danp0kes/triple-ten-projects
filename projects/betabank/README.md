@@ -34,7 +34,7 @@ The process will follow these four steps:
 
 - Accuracy is not the best metric due to heavy class imbalance (80%-20% split of target)
 - Upsampling with a random forest model produced the best F1 score of 62%
-- AUC-ROC Curves confirmed random forest was the better model
+- AUC-ROC Curves confirmed random forest (0.852) was better than the logistic regression model (0.759)
 
 ![auc_roc_rf](pics/roc_curveRandom_Forest.png)
 
