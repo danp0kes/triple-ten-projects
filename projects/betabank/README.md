@@ -1,5 +1,7 @@
 # Beta Bank Customer Retention Model
 
+Check out the full notebook [here](betabank-ml.ipynb)
+
 ## The Problem
 Beta Bank customers are leaving little by little each month. The bank determined it's cheaper to save existing customers than to attract new ones. Knowing which customers will leave soon would be a valuable tool to help Beta Bank target the right customers before they decide to leave.
 
@@ -14,14 +16,28 @@ Data has been provided by TripleTen which
 The process will follow these four steps:
 
 - Prepare the data
+
 - Examine the balance of classes
+
 - Test models without improvements
     - Random Forest
     - Logistic Regression
+
 - Improve model quality
     - Upscaling
     - Downscaling
     - Threshold Adjustments
-- Perform final testing
+    - Class Weight Adjustments
+- Perform final testing with choseon model and improvement method
 
-## [Check out this process here](betabank-ml.ipynb)
+## Key Findings
+
+- Accuracy is not the best metric due to heavy class imbalance (80%-20% split of target)
+- Upsampling with a random forest model produced the best F1 score of 62%
+- AUC-ROC Curves confirmed random forest was the better model
+
+![auc_roc_rf](pics/roc_curveRandom_Forest.png)
+
+![auc_roc_lr](pics/roc_curveLogistic_Regression.png)
+
+
