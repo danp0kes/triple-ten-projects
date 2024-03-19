@@ -10,7 +10,7 @@ Portfolio of completed projects while attending the Data Science Bootcamp with T
 | 4 | Integrated Project 1         |    Ice, an online gaming store wishes to plan advertising campaigns in the best way possible.   |    Hypothesis Testing, Data Visualization, User Profiling    | [ice games](projects/games-sales) |
 | 5 | Data Collection and Storage (SQL)    |       |      |  |
 | 6 | Intro to Machine Learning    |   Megaline seeks a model that can recommend a new phone plan to legacy users. |Classification Task, Decision Trees, Random Forest, Logistic Regression  | [megaline-ml](projects/megaline-ml) |
-| 7 | Supervised Learning          |   Beta Bank customers are leaving little by little each month. The bank determined it's cheaper to save existing customers than to attract new ones. Knowing which customers will leave soon is an tool that Beta Bank would find valuable. This way they can target the right customers before they decide to leave.    | Class Weight Adjustments, Threshold Adjustments, AUC-ROC  | [betabank](projects/betabank) |
+| 7 | Supervised Learning          |   Beta Bank customers are leaving little by little each month. The bank determined it's cheaper to save existing customers than to attract new ones. A model which predicts which customers will leave soon can help Beta Bank save certain customers. | Class Weight Adjustments, Threshold Adjustments, AUC-ROC  | [betabank](projects/betabank) |
 | 8 | Machine Learning in Business |       |       | ------- |
 | 9 | Integrated Project 2         |       |       | ------- |
 | 10 | Linear Algebra              |       |       | ------- |
