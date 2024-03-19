@@ -10,7 +10,7 @@ Beta Bank hopes a sufficent prediction model can be made. It's sufficiency depen
 
 ## Data Description
 
-Data has been provided by TripleTen which 
+Data has been provided by TripleTen. 
 
 ## The Process
 The process will follow these four steps:
