@@ -11,7 +11,7 @@ Portfolio of completed projects while attending the Data Science Bootcamp with T
 | 5 | Data Collection and Storage (SQL)    |       |      |  |
 | 6 | Intro to Machine Learning    |   Megaline seeks a model that can recommend a new phone plan to legacy users. |Classification Task, Decision Trees, Random Forest, Logistic Regression  | [megaline-ml](projects/megaline-ml) |
 | 7 | Supervised Learning          |   Beta Bank customers are leaving little by little each month. The bank determined it's cheaper to save existing customers than to attract new ones. A model which predicts which customers will leave soon can help Beta Bank save certain customers. | Class Weight Adjustments, Threshold Adjustments, AUC-ROC  | [betabank](projects/betabank) |
-| 8 | Machine Learning in Business |   Oily Giant mining company is seeking the ideal place for a new oil well. A model will predict which of the three regions will produce the greatest profit whilst eliminating risk.    |    breakeven analysis, bootstrapping, loss probability | [oilygiant](projects/oilygiant-ml)|
+| 8 | Machine Learning in Business |   Oily Giant mining company is seeking the ideal place for a new oil well. A model will predict which of the three regions will produce the greatest profit whilst eliminating risk.    |    Breakeven Analysis, Bootstrapping, Loss Probability | [oilygiant](projects/oilygiant-ml)|
 | 9 | Integrated Project 2         |       |       | ------- |
 | 10 | Linear Algebra              |       |       | ------- |
 | 11 | Numercial Methods           |       |       | ------- |
