@@ -1,4 +1,4 @@
-# gold-recovery-ml
+# Zyfra (Integrated Project 2)
 
 ## Introduction
 
