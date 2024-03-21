@@ -18,6 +18,8 @@ Find the best model that determines how many drivers are required for the next h
 - Test Stationarity
     - Decomposition
     - Ad-Fuller Test
+- Enrich Data
+    - Add columns for lag, moving values
 
 ### Training
 The data was trained on multiple models. These included:
