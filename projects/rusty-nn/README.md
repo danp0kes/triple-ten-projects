@@ -1,6 +1,6 @@
 # Rusty Bargains (Neural Networks)
 
-The full project can be found [here](rusty-nn.ipynb)
+The full project can be found [here](rusty-nn.ipynb).
 
 ## Introduction
 
@@ -9,7 +9,7 @@ Rusty Bargain, a used car company, is developing an app to help customers predic
 
 ## Data
 
-The data was provided by TripleTen
+The data was provided by TripleTen. A full data description can be found in the full project.
 
 ## Process
 

@@ -15,7 +15,7 @@ Portfolio of completed projects while attending the Data Science Bootcamp with T
 | 9 | Integrated Project 2         |   Zyfra, a heavy industry company are looking for a model that can predict how much gold will be produced from gold ore. Extraction and purification metrics have been provided to optimize production and eliminate inefficent practices.    |   Custom Scoring, Regression Task   | [zyfra](projects/zyfra) | 
 | 10 | Linear Algebra              |   Sure Tomorrow, an insurance company wants to improve marketing to similar customers and predict how many claims a new customers will make. They wish to do so by keeping clients' interest in mind and protecting their personal data.     | kNN, Scaling, Masking, Mathematical Proof  | [sure-tomorrow](projects/sure-tomorrow) |
 | 11 | Numercial Methods |   Rusty Bargain, a used car company, is developing an app to help customers predict the market value of their own car. By using historical data on technical specifications and prices, they hope to implement a model that is accurate and time efficient.    |    Neural Networks, Gradient Boosting, RMSE, Time Efficiency   | [rusty-bargain](projects/rusty-nn) |
-| 12 | Time Series                 |       |       | ------- |
+| 12 | Time Series                 |       |       | [taxi-time](projects/taxi-time) |
 | 13 | Machine Learning for Texts  |       |       | ------- |
 | 14 | Computer Vision             |       |       | ------- |
 | 15 | Unsupervised Learning       |    TBC   |   TBC    | ------- |
