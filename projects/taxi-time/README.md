@@ -49,4 +49,4 @@ A baseline model that used previous values produced an RMSE of 46.82 on the trai
 
 ### Testing
 
-The linear regression model returned an RMSE of 46.11 on the test set. This is slightly better than the RMSE of the previous values model on the validation set. Thus, it is difficult to say if the model is infact better than simply looking to previous values.
+The linear regression model returned an RMSE of 46.11 on the test set.
