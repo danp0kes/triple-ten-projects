@@ -39,6 +39,10 @@ Each will require splitting data and training according to their specific hyperp
 
 Model efficiency will be compared. This can be broken down to how accurate and how quick the model is. Accuracy will be measured with reference to the root of the mean square error (RMSE). The lower the number, the better. Each model will also be evaluated by how long each model takes along with how long the best model takes whilst iterating through hyperparameters.
 
+## Data
+
+The data was provided by TripleTen
+
 ## Key Findings
 
 ### Accuracy
