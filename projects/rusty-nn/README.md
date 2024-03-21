@@ -6,6 +6,11 @@ The full project can be found [here](rusty-nn.ipynb)
 
 Rusty Bargain, a used car company, is developing an app to help customers predict the market value of their own car. By giving historical data of technical specifications and prices, they hope we can find a model that is accurate and time efficient.
 
+
+## Data
+
+The data was provided by TripleTen
+
 ## Process
 
 The modelling process includes the following three steps:
@@ -38,10 +43,6 @@ Each will require splitting data and training according to their specific hyperp
 ## Analysis
 
 Model efficiency will be compared. This can be broken down to how accurate and how quick the model is. Accuracy will be measured with reference to the root of the mean square error (RMSE). The lower the number, the better. Each model will also be evaluated by how long each model takes along with how long the best model takes whilst iterating through hyperparameters.
-
-## Data
-
-The data was provided by TripleTen
 
 ## Key Findings
 
