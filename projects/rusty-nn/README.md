@@ -1,5 +1,7 @@
 # Rusty Bargains (Neural Networks)
 
+The full project can be found [here](rusty-nn.ipynb)
+
 ## Introduction
 
 Rusty Bargain, a used car company, is developing an app to help customers predict the market value of their own car. By giving historical data of technical specifications and prices, they hope we can find a model that is accurate and time efficient.
