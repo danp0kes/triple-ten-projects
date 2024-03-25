@@ -1,6 +1,6 @@
 # Beta Bank Customer Retention Model
 
-Check out the full notebook [here](betabank-ml.ipynb)
+Check out the full notebook [here](betabank.ipynb)
 
 ## The Problem
 Beta Bank customers are leaving little by little each month. The bank determined it's cheaper to save existing customers than to attract new ones. Knowing which customers will leave soon would be a valuable tool to help Beta Bank target the right customers before they decide to leave.
