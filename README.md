@@ -1,3 +1,6 @@
+# Tripleten Projects
+Portfolio of completed projects while attending the Data Science Bootcamp with TripleTen.
+
 | Number | Subject                   | Description                                                                                                                                                  | Skills                                                        | Link                               |
 | ------ | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------- | ---------------------------------- |
 | 16     | Final Project             | TBC                                                                                                                                                          | TBC                                                            | -------                            |
