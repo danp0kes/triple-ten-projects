@@ -18,29 +18,31 @@ Predict negative reviews from the IMDB with a model that is atleast 85% accurate
 
 ### Best Model - NLTK & Logistic Regression
 
+F1, 
+
 ![ntlk](pics/nltk_tfidf_lr_results.png)
 
-The model that returned the best results used the nltk package, resulting in 88% of all reviews being characteized correctly as negative.
+The model that returned the best results used the nltk package, resulting in 88% of all reviews being characteized correctly.
 
 ## Process
 
 ### 1. Preparation
-- Load the data.
-- Preprocess data.
-- Conduct an EDA and make conclusions on class imbalances.
+- Load data
+- Preprocess data
+- Conduct an EDA and make conclusions on class imbalances
 
 ### 2. Modelling
-- Preprocess the data for modeling.
-- Train three different models for the given train dataset.
+- Preprocess the data for modeling
+- Train three different models for the given train dataset
     1. NLTK and Linear Regression
     2. spaCy and Linear Regression
     3. spaCy and Gradient Boosting (XGB)
-- Test the models for the given test dataset.
+- Test the models for the given test dataset
 
 ### 3. Testing
-- Compose own reviews and classify them with all the models.
-- Check for differences between the testing results of models.
-- Present findings.
+- Compose own reviews and classify them with all models
+- Check for differences between the testing results of models
+- Present findings
 
 
 ## Data
