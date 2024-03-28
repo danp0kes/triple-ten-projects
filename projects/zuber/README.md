@@ -1,9 +1,16 @@
 # Zuber (SQL)
 
-
 ## Introduction
 
 Zuber, a new ride-sharing company is launching in Chicago. Working with a database, data from competitors will be analyzed and a hypothesis about the impact of weather on ride frequency will be tested.
+
+## Goal
+
+Determine if ride times increase with changes in weather.
+
+## Key Findings
+
+The null hypothesis that the average duration is the same on rainy and dry Saturdays is rejected. This was done using a two sided t-test. Instead, the test found that rainy and dry Saturdays have a different ride duration time.
 
 ## Data Description
 
@@ -30,72 +37,49 @@ A database with info on taxi rides in Chicago is provided on the TripleTen platf
 - distance_miles: ride distance in miles
 - pickup_location_id: pickup neighborhood code
 - dropoff_location_id: dropoff neighborhood code
-- weather_records table: data on weather
+4. `weather_records` table: data on weather
+- record_id: weather record code
+- ts: record date and time (time rounded to the hour)
+- temperature: temperature when the record was taken
+- description: brief description of weather conditions, e.g. "light rain" or "scattered clouds"
 
-record_id: weather record code
-ts: record date and time (time rounded to the hour)
-temperature: temperature when the record was taken
-description: brief description of weather conditions, e.g. "light rain" or "scattered clouds"
-Table scheme
-image
+![database](pics/database.png)
 
-Note: there isn't a direct connection between the tables trips and weather_records in the database. But you can still use JOIN and link them using the time the ride started (trips.start_ts) and the time the weather record was taken (weather_records.ts). 
+## Project Steps
 
-Instructions on completing the project
-Step 1. Write a code to parse the data on weather in Chicago in November 2017 from the website:
+### Step 1. Parse Data
 
-https://practicum-content.s3.us-west-1.amazonaws.com/data-analyst-eng/moved_chicago_weather_2017.html
+- Find weather data in Chicago by parsing appropriate html
+- This portion can be found [here](steps/parse.ipynb)
 
-Step 2. Exploratory data analysis
+### Step 2. Exploratory Data Analysis (SQL)
 
-Find the number of taxi rides for each taxi company for November 15-16, 2017. Name the resulting field trips_amount and print it along with the company_name field. Sort the results by the trips_amount field in descending order.
+- Find the number of taxi rides for each taxi company for November 15-16, 2017.
 
-Find the number of rides for every taxi company whose name contains the words "Yellow" or "Blue" for November 1-7, 2017. Name the resulting variable trips_amount. Group the results by the company_name field.
+- Find the number of rides for every taxi company whose name contains the words "Yellow" or "Blue".
 
-In November 2017, the most popular taxi companies were Flash Cab and Taxi Affiliation Services. Find the number of rides for these two companies and name the resulting variable trips_amount. Join the rides for all other companies in the group "Other." Group the data by taxi company names. Name the field with taxi company names company. Sort the result in descending order by trips_amount.
+- Find the number of rides of the two most popular companies.
 
-Step 3. Test the hypothesis that the duration of rides from the the Loop to O'Hare International Airport changes on rainy Saturdays.
+- This process can be found [here](steps/eda-sql.ipynb)
 
-Retrieve the identifiers of the O'Hare and Loop neighborhoods from the neighborhoods table.
+### Step 3. Hypothesis Testing  (SQL)
 
-For each hour, retrieve the weather condition records from the weather_records table. Using the CASE operator, break all hours into two groups: "Bad" if the description field contains the words "rain" or "storm," and "Good" for others. Name the resulting field weather_conditions. The final table must include two fields: date and hour (ts) and weather_conditions.
+Find the duration of rides from the the Loop to O'Hare International Airport changes on rainy Saturdays.
 
-Retrieve from the trips table all the rides that started in the Loop (neighborhood_id: 50) and ended at O'Hare (neighborhood_id: 63) on a Saturday. Get the weather conditions for each ride. Use the method you applied in the previous task. Also retrieve the duration of each ride. Ignore rides for which data on weather conditions is not available.
+- Retrieve the identifiers of the O'Hare and Loop neighborhoods from the neighborhoods table.
 
-Step 4. Exploratory data analysis (Python)
+- retrieve the weather condition records from the weather_records table and find good and bad weather days.
 
-In addition to the data you retrieved in the previous tasks, you've been given a second file. You now have these two CSVs: 
+- Find airport trips and obtain the weather conditions and duration for each ride.
 
-project_sql_result_01.csv. It contains the following data:
+- This process can be found [here](steps/hyp-sql.ipynb)
 
-company_name: taxi company name
-trips_amount: the number of rides for each taxi company on November 15-16, 2017.
-project_sql_result_04.csv. It contains the following data:
+### Step 4. Exploratory data analysis
 
-dropoff_location_name: Chicago neighborhoods where rides ended
-average_trips: the average number of rides that ended in each neighborhood in November 2017.
+- Use datasets collected from SQL (step 2)
+- Continue EDA in [python](steps/zuber.ipynb) 
 
-For these two datasets you now need to:
+### Step 5. Testing Hypothesis (Python)
 
-import the files
-study the data they contain
-make sure the data types are correct
-identify the top 10 neighborhoods in terms of drop-offs
-make graphs: taxi companies and number of rides, top 10 neighborhoods by number of dropoffs
-draw conclusions based on each graph and explain the results
-Step 5. Testing hypotheses (Python)
-
-project_sql_result_07.csv — the result of the last query. It contains data on rides from the Loop to O'Hare International Airport. Remember, these are the table's field values:
-
-start_ts — pickup date and time
-weather_conditions — weather conditions at the moment the ride started
-duration_seconds — ride duration in seconds
-Test the hypothesis:
-"The average duration of rides from the Loop to O'Hare International Airport changes on rainy Saturdays." 
-
-Set the significance level (alpha) value on your own.
-
-Explain:
-
-how you formed the null and alternative hypotheses
-what criterion you used to test the hypotheses and why
+- Use datasets collected from SQL (step 3)
+- Test hypothesis that duration is similar despite weather found [here](steps/zuber.ipynb)
