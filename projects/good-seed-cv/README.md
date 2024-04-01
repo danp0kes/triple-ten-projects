@@ -8,11 +8,11 @@ The supermarket chain Good Seed would like to explore whether Data Science can h
 
 # Good Seed - Computer Vision
 
-The supermarket chain Good Seed would like to explore whether Data Science can help them adhere to alcohol laws by making sure they do not sell alcohol to people underage. The shops are equipped with cameras in the checkout area which are triggered when a person is buying alcohol.
+Shops are equipped with cameras in the checkout area which are triggered when a person is buying alcohol.
 
 ## Goal
 
-Develop a model that identifies the age of a person based on an image. Return a model that predicts age with a mean absolute average of below 8. 
+Develop a model that identifies the age of a person based on an image. Return a model that predicts age with a mean absolute average below 8. 
 
 ## Process
 
@@ -27,17 +27,15 @@ Develop a model that identifies the age of a person based on an image. Return a 
     - Python script is created that performs training
     - Note that the model requires a GPU platform to run Tensorflow, resulting output is shared as markdown
 
-4. Draw Conclusion
-
 
 ## Data
 
-7.5k photos with accompanying ages are saved in an external folder.
+7.5k photos with accompanying ages are saved in the `datasets/faces/` folder.
 
 
 ## Key Findings
 
-The model returns a mean absolute error of 6.37 on the validation set. This indicates that on average, predictions are 6.37 years off a person's actual age. This may seem like a large range, but becomes more useful when considering all provided ages range from 1 to 100.
+The model returns a mean absolute error of 6.78 on the validation set. This indicates that on average, predictions are 6.78 years off a person's actual age. This may seem like a large range, but becomes more useful when considering all provided ages range from 1 to 100.
 
 Applying this model to the current needs of Good Seed to identify underage alcohol purchasing would be helpful. If the legal alcohol purchasing age is 21, those identified as 29 would likely be legally viable to do so. This works as even if the model is wrong, a person would on average be atleast over 22 years old (predicted age - mae). As the median age is 29, this would cut out the need to identify a large number of customers manually.
 
