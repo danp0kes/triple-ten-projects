@@ -6,13 +6,9 @@ The full project can be found [here](good-seed.ipynb)
 
 The supermarket chain Good Seed would like to explore whether Data Science can help them adhere to alcohol laws by making sure they do not sell alcohol to people underage.
 
-# Good Seed - Computer Vision
-
-Shops are equipped with cameras in the checkout area which are triggered when a person is buying alcohol.
-
 ## Goal
 
-Develop a model that identifies the age of a person based on an image. Return a model that predicts age with a mean absolute average below 8. 
+Develop a model that identifies the age of a person based on an image. Return a model that predicts age with the lowest mean absolute average. 
 
 ## Key Findings
 
