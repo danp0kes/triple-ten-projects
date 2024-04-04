@@ -1,10 +1,8 @@
 # Good Seed (Computer Vision)
 
-The full project can be found [here](good-seed.ipynb)
-
 ## Introduction
 
-The supermarket chain Good Seed would like to explore whether Data Science can help them adhere to alcohol laws by making sure they do not sell alcohol to people underage.
+The supermarket chain Good Seed would like to explore whether Data Science can help them adhere to alcohol laws by making sure they do not sell alcohol to people underage. The full project can be found [here](good-seed.ipynb).
 
 ## Goal
 
