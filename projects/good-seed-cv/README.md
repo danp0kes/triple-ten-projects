@@ -16,9 +16,9 @@ Develop a model that identifies the age of a person based on an image. Return a 
 
 ## Key Findings
 
-- Accurately predicts whether customer is below the legal age 83% of the time
 - Eliminates the need to manually identify the age of one-third of all customers that purchase alcohol.
 - Predictions fall within 6.78 years off person's actual age on average.
+- F1 score is better than constant at .89 with precision at 0.82
 - Flaws: the model believes I am two years older than I am.
 
 
