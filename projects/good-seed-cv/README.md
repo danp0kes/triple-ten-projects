@@ -14,6 +14,19 @@ Shops are equipped with cameras in the checkout area which are triggered when a 
 
 Develop a model that identifies the age of a person based on an image. Return a model that predicts age with a mean absolute average below 8. 
 
+## Key Findings
+
+- Accurately predicts whether customer is below the legal age 83% of the time
+- Eliminates the need to manually identify the age of one-third of all customers that purchase alcohol.
+- Predictions fall within 6.78 years off person's actual age on average.
+- Flaws: the model believes I am two years older than I am.
+
+
+
+## Assumptions: 
+- The distribution of the age of customers who purchase alcohol is similar to the distribition of the age of customers generally.
+- 35% of all customers are aged 53 and above (according to statistica).
+
 ## Process
 
 1. Prepare Data
@@ -24,8 +37,15 @@ Develop a model that identifies the age of a person based on an image. Return a 
     - Assess distribution
 
 3. Run Model
-    - Python script is created that performs training
-    - Note that the model requires a GPU platform to run Tensorflow, resulting output is shared as markdown
+    - Load train
+    - Load test
+    - Create model
+    - Train model
+
+4. Draw Conclusions
+    - How effective is the model?
+    - How can it be used to save resources?
+    - For fun: how old do I, my fiance, and my dogs look? 
 
 
 ## Data
@@ -33,19 +53,13 @@ Develop a model that identifies the age of a person based on an image. Return a 
 7.5k photos with accompanying ages are saved in the `datasets/faces/` folder.
 
 
-## Key Findings
-
-The model returns a mean absolute error of 6.78 on the validation set. This indicates that on average, predictions are 6.78 years off a person's actual age. This may seem like a large range, but becomes more useful when considering all provided ages range from 1 to 100.
-
-Applying this model to the current needs of Good Seed to identify underage alcohol purchasing would be helpful. If the legal alcohol purchasing age is 21, those identified as 29 would likely be legally viable to do so. This works as even if the model is wrong, a person would on average be atleast over 22 years old (predicted age - mae). As the median age is 29, this would cut out the need to identify a large number of customers manually.
-
 ## Alternative Uses
 
 This model could also help Good Seed financially by determining product demographics.
 
 ### Product Placement
 
- Firstly, Good Seed could identify what products are being bought by each age group. For instance, Good Seed could identify certain products that are bought more by elderly people. As elderly people may require more help accessing products, the store could place these items closer to the front, making it easier for them to purchase items and incentivising shopping at Good Seed over other stores. 
+Firstly, Good Seed could identify what products are being bought by each age group. For instance, Good Seed could identify certain products that are bought more by elderly people. As elderly people may require more help accessing products, the store could place these items closer to the front, making it easier for them to purchase items and incentivising shopping at Good Seed over other stores. 
 
 ### Supplier Marketing
 Secondly, this information could also be useful for suppliers who might want to identify their target audiences. Good Seed could sell this information and charge for specific shelf spacing based on customer preferences.
