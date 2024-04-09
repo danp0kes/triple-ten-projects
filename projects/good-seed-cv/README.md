@@ -2,19 +2,19 @@
 
 ## Introduction
 
-The supermarket chain Good Seed would like to explore whether Data Science can help them adhere to alcohol laws by making sure they do not sell alcohol to people underage. The full project can be found [here](good-seed.ipynb).
+The supermarket chain Good Seed would like to explore whether Data Science can help them adhere to alcohol laws by making sure they do not sell alcohol to underage customers. As cameras are located by the checkout area, the need for an employee to check a customer's identity may be replaced given the right model. The full project can be found [here](good-seed.ipynb) and the demo [here](https://www.loom.com/share/b8ee33e35b7b4631b91a3566a20c7e4c).
 
 ## Goal
 
-Develop a model that identifies the age of a person based on an image. Return a model that predicts age with the lowest mean absolute average. 
+Develop a model that identifies the age of a customer based on their portrait photo. Attain the lowest mean absolute average. 
 
 ## Key Findings
 
-- Eliminates the need to manually identify the age of one-third of all customers that purchase alcohol.
-- Predictions fall within 6.78 years off person's actual age on average.
-- F1 score is better than constant at .89 with precision at 0.82
-- Flaws: the model believes I am two years older than I am.
+The model:
 
+- Eliminates the need to manually identify the age of one-third of all customers that purchase alcohol.
+- Predicts ages within 6.78 years off person's actual age on average.
+- Produces an F1 score that is better than constant at 0.89 with precision at 0.82
 
 
 ## Assumptions: 
@@ -31,9 +31,9 @@ Develop a model that identifies the age of a person based on an image. Return a 
     - Assess distribution
 
 3. Run Model
-    - Load train
-    - Load test
-    - Create model
+    - Load train (ImageDataGenerator)
+    - Load test (ImageDataGenerator)
+    - Create model (ResNet)
     - Train model
 
 4. Draw Conclusions
