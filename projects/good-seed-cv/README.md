@@ -1,4 +1,4 @@
-# Predicting Ages Through Portrait Photos (Computer Vision)
+# Predicting Ages Through Portrait Photos
 
 ## Introduction
 
