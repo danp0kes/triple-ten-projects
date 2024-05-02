@@ -12,7 +12,7 @@ Create a model that utilizes Interconnect's rich repository of customer data, en
 
 ## Process
 
-Through sophisticated predictive modeling, we aim to identify subtle patterns and indicators that precede customer churn. By detecting early signals of customer dissatisfaction, Interconnect can deploy timely interventions such as promotional codes and tailored plan options to mitigate churn risk and foster long-term customer loyalty. 
+Through sophisticated predictive modeling, we aim to identify subtle patterns and indicators that precede customer churn. By detecting early signals of customer dissatisfaction, Interconnect can deploy timely interventions such as promotional codes and tailored plan options to mitigate churn risk and foster long-term customer loyalty. This project will do so by completing the following steps:
 
 1. Load Data
 2. Prepare Data
