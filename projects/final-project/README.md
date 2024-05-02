@@ -8,7 +8,19 @@ The full project can be found [here](final_project.ipynb).
 
 ## Goal
 
-Create a model that utilizes Interconnect's rich repository of customer data, encompassing information about their plans, contracts, and demographic details. Through sophisticated predictive modeling, we aim to identify subtle patterns and indicators that precede customer churn. By detecting early signals of customer dissatisfaction, Interconnect can deploy timely interventions such as promotional codes and tailored plan options to mitigate churn risk and foster long-term customer loyalty. 
+Create a model that utilizes Interconnect's rich repository of customer data, encompassing information about their plans, contracts, and demographic details. 
+
+## Process
+
+Through sophisticated predictive modeling, we aim to identify subtle patterns and indicators that precede customer churn. By detecting early signals of customer dissatisfaction, Interconnect can deploy timely interventions such as promotional codes and tailored plan options to mitigate churn risk and foster long-term customer loyalty. 
+
+1. Load Data
+2. Prepare Data
+3. Perform Exploratory Data Analysis
+4. Pre-process Data
+5. Create Model
+6. Draw conclusions
+
 
 ## Key Findings
 
@@ -19,14 +31,5 @@ Create a model that utilizes Interconnect's rich repository of customer data, en
 ## Final Model
 
 The model that returned the highest AUC-ROC score was the CatBoost Model at 0.929 on the test set. This model used the random over sampler dataset with a learning rate of 0.05, iterated over 2000 times. 
-
-## Process
-
-1. Load Data
-2. Prepare Data
-3. Perform Exploratory Data Analysis
-4. Pre-process Data
-5. Create Model
-6. Draw conclusions
 
 
