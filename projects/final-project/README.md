@@ -32,4 +32,6 @@ Through sophisticated predictive modeling, we aim to identify subtle patterns an
 
 The model that returned the highest AUC-ROC score was the CatBoost Model at 0.929 on the test set. This model used the random over sampler dataset with a learning rate of 0.05, iterated over 2000 times. 
 
+![roc-curve](images/roc_curve.png)
+
 
