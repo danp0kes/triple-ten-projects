@@ -14,6 +14,7 @@ Find the best model that determines how many drivers are required for the next h
 
 ### Prepare Data
 
+- Pull data from previous taxi cab [project that used SQL](https://github.com/danp0kes/triple-ten-projects/tree/main/projects/zuber)
 - Resample and Clean
 - Test Stationarity
     - Decomposition
